@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.dark-pink-text {
+    color: #8B008B; /* Dark pink text color */
+    font-size: 30px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFC0CB;
+    padding: 10px;
+}
+
+a {
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    display: block;
+    color: #8B008B; /* Dark pink text color */
+    text-align: center;
+    padding: 10px;
+}
+
+ul li ul.drop {
+    width: 100%;
+    position: absolute;
+    background-color:#FFB6C1;
+    z-index: 999;
+    display: none;
+}
+
+ul li:hover {
+    background-color:#f691a2;
+}
+
+ul li:hover ul.drop {
+    display: block;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.login-button,
+.get-started-button {
+    display: inline-block;
+    padding: 10px;
+    margin-left: auto;
+    text-decoration: none;
+    color: #8B008B; /* Dark pink text color */
+    background-color: #FFC0CB;
+    border: 1px solid #fff;
+    transition: background-color 0.5s ease;
+}
+
+.login-button:hover,
+.get-started-button:hover {
+    background-color: #fff;
+    color: #FFC0CB;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+h1{
+    color: #8B008B;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    padding-right: 20px; 
+    font-size: 70px;
+}
+p{
+    text-align:start;
+    font-size: 30px;
+    margin: 20px 150px;
+}
+.imgg{
+   display: flex;/*three for center align*/
+   justify-content: center;
+   align-items: center;
+  
+}
+.icon:hover,
+.icon.selected {
+    color: #00a2ff; /* Change to the desired glowing color */
+    box-shadow: 0 0 20px #00a2ff; /* Box shadow for the glowing effect */
+
+}
+
+/* Add specific styles for each social media icon */
+.twitter { color: #1da1f2; padding-right: 50px;}
+.facebook { color: #1272ee; padding-right: 50px; }
+.instagram { color: #e4405f; padding-right: 50px; }
+.linkedin { color: #0077b5; padding-right: 50px; }
+.youtube { color: #ff0000;  padding-right: 50px;}
+
+.social-icons
+{
+    display: flex;/*three for center align*/
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+font-size: 50px; }
+ul div.contents li{
+    display: inline-block;
+    background-color: lightpink;
+    margin-bottom: 30px;
+    padding-top: 40px;
+    padding-left: 40px;
+   
+    font-size: 35px;
+} 
+ul div.contents {
+    background-color: lightpink;
+    width: 1000px;height: 900px;
+    margin: 0px 100px 100px 150px;
+}
+h2{
+    display: flex;/*three for center align*/
+   /* padding-left: 23%;*/
+    font-size: 50px;
+    color: #8B008B;
+    padding-left: 5%;
+    
+}
+h3{
+    display: flex;/*three for center align*/
+    justify-content: center;
+    align-items: center;
+    
+}
+h4{
+   
+    font-size: 45px;
+    padding-left: 5%;
+    color: #8B008B;
+}
+.foo{
+    font-size: 30px;
+
+}
+.wc{
+ font-size: 40px;
+ cursor: pointer;
+ background-color: #e4405f;
+ 
+}
+.wc ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/*.wc li {
+    margin: 0 10px;
+}
+
+/* Dark pink headings */
+h1, h2, h3, h4,h5 {
+    color: #8B008B;
+    
+}
+
+/*body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}*/
+
+/*section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    margin: 20px 0;
+}
+
+.section-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.section-content h2 {
+    margin-bottom: 10px;
+}*/
+section{
+    display: inline-block;
+    cursor: pointer;
+    height: 100px;
+   
+
+}
+section.h2{
+    padding-left: 20%;
+}
+input[type="submit"] {
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+}
+h5{
+    margin-left: 10%;
+}
+.contentsnow{
+    margin: 0px 600px 0px 600px;
+}
+
+
+
+
